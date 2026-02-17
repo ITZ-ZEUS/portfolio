@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soryah A S | Computer Science Postgraduate</title>
+    <meta name="description"
+        content="Portfolio of Soryah A S, a Computer Science Postgraduate specializing in C, C++, Python, and UI/UX Design.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <a href="#hero" class="logo">Soryah</a>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="nav-list">
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Internship</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact" class="btn-nav">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="container hero-content">
+            <div class="hero-text">
+                <p class="greeting">Hello, I'm</p>
+                <h1 class="name">Soryah A S</h1>
+                <h2 class="role">I'm a <span id="typing-text"></span><span class="cursor">&nbsp;</span></h2>
+                <p class="summary">
+                    A good and well-organized individual with strong problem-solving skills and a passion for
+                    technology.
+                    I specialize in building efficient software solutions and designing intuitive user interfaces.
+                </p>
+                <div class="hero-btns">
+                    <a href="#contact" class="btn btn-primary">Contact Me</a>
+                    <a href="#projects" class="btn btn-outline">View My Work</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <!-- User to replace src with actual image path -->
+                <div class="img-wrapper animate-float">
+                    <img src="assets/profile.jpg" alt="Soryah A S" id="profile-img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="assets/about.JPG" alt="About Me">
+                </div>
+                <div class="about-text">
+                    <p>
+                        I am currently pursuing my <strong>M.Sc in Computer Science</strong> at Pondicherry University.
+                        With a strong foundation in C, C++, and Python, I am eager to apply my skills to real-world
+                        challenges.
+                        I am a quick learner who thrives in team environments and adapts easily to new technologies.
+                    </p>
+                    <div class="personal-info">
+                        <div class="info-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Puducherry, India</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-envelope"></i>
+                            <a href="mailto:soryah2004@gmail.com">soryah2004@gmail.com</a>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-phone-alt"></i>
+                            <a href="tel:+919087537735">+91 9087537735</a>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-coins"></i>
+                            <span>Hobby: Numismatics (Coin Collection)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">Education</h2>
+            <div class="timeline">
+                <div class="timeline-item hidden">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3 class="degree">M.Sc Computer Science</h3>
+                        <span class="institution">Pondicherry University</span>
+                        <span class="year">2024 – 2026 (Pursuing)</span>
+                    </div>
+                </div>
+                <div class="timeline-item hidden">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3 class="degree">B.Sc Computer Science</h3>
+                        <span class="institution">Sri Manakula Vinayagar Engineering College</span>
+                        <span class="year">2021 – 2024</span>
+                        <p class="grade">CGPA: 7.6</p>
+                    </div>
+                </div>
+                <div class="timeline-item hidden">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3 class="degree">Higher Secondary (HSC)</h3>
+                        <span class="year">Completed</span>
+                        <p class="grade">Percentage: 82.20%</p>
+                    </div>
+                </div>
+                <div class="timeline-item hidden">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3 class="degree">SSLC</h3>
+                        <span class="year">Completed</span>
+                        <p class="grade">Percentage: 76.80%</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-grid">
+                <!-- Programming -->
+                <div class="skill-category">
+                    <h3>Programming Languages</h3>
+                    <div class="skill-items">
+                        <div class="skill-card hidden">
+                            <i class="fab fa-python"></i>
+                            <span>Python</span>
+                        </div>
+                        <div class="skill-card hidden">
+                            <i class="fas fa-code"></i>
+                            <span>C</span>
+                        </div>
+                        <div class="skill-card hidden">
+                            <i class="fas fa-laptop-code"></i>
+                            <span>C++</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Tools -->
+                <div class="skill-category">
+                    <h3>Tools & Design</h3>
+                    <div class="skill-items">
+                        <div class="skill-card hidden">
+                            <i class="fab fa-figma"></i>
+                            <span>Figma</span>
+                        </div>
+                        <div class="skill-card hidden">
+                            <i class="fas fa-palette"></i>
+                            <span>Canva</span>
+                        </div>
+                        <div class="skill-card hidden">
+                            <i class="fab fa-microsoft"></i>
+                            <span>MS Office</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Languages -->
+                <div class="skill-category">
+                    <h3>Languages</h3>
+                    <div class="skill-items">
+                        <div class="skill-card hidden">
+                            <i class="fas fa-language"></i>
+                            <span>English (Fluent)</span>
+                        </div>
+                        <div class="skill-card hidden">
+                            <i class="fas fa-om"></i>
+                            <span>Tamil (Fluent)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">Experience</h2>
+            <div class="experience-card hidden">
+                <div class="exp-header">
+                    <h3>UI/UX Intern</h3>
+                    <span class="company">De Mentee Academy</span>
+                    <span class="duration">Nov 2025 – Dec 2025</span>
+                </div>
+                <div class="exp-body">
+                    <ul>
+                        <li><i class="fas fa-check-circle"></i> Worked on mobile app and website design using Figma.
+                        </li>
+                        <li><i class="fas fa-check-circle"></i> Collaborated with the team to understand user
+                            requirements.</li>
+                        <li><i class="fas fa-check-circle"></i> Learned key design principles and workplace
+                            collaboration.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <div class="project-card hidden">
+                <div class="project-info">
+                    <h3>Smart Billing System</h3>
+                    <p class="tech-stack">
+                        <span>HTML</span> <span>CSS</span> <span>JavaScript</span> <span>Python</span>
+                        <span>Firebase</span>
+                    </p>
+                    <p class="project-desc">
+                        A web application designed for grocery billing. It features real-time invoice generation
+                        and customer history management, streamlining the billing process for small businesses.
+                    </p>
+                </div>
+            </div>
+
+            <div class="project-card hidden">
+                <div class="project-info">
+                    <h3>Exam Seat Allocation & Scheduling System</h3>
+                    <p class="tech-stack">
+                        <span>Python</span> <span>SQLite</span> <span>HTML</span> <span>CSS</span>
+                    </p>
+                    <p class="project-desc">
+                        Designed and developed a decision-support system for managing exam seating and room scheduling.
+                        Implemented validation logic to check seat availability, room capacity, and time conflicts.
+                        Structured a relational SQLite database for efficient data handling and record management.
+                        Created separate Admin and Staff interfaces to ensure controlled and organized allocation
+                        decisions.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="contact-subtitle">I am currently looking for new opportunities. My inbox is always open!</p>
+
+            <div class="contact-wrapper">
+                <div class="contact-details">
+                    <a href="mailto:soryah2004@gmail.com" class="contact-btn">
+                        <i class="fas fa-envelope"></i> Say Hello
+                    </a>
+                    <div class="social-links">
+                        <a href="https://linkedin.com/in/soryah-as" target="_blank" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="mailto:soryah2004@gmail.com" aria-label="Email">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                        <a href="tel:+919087537735" aria-label="Phone">
+                            <i class="fas fa-phone"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2026 Soryah A S. All Rights Reserved.</p>
+        <p>Built with <i class="fas fa-heart" style="color: var(--accent);"></i> and Code.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
